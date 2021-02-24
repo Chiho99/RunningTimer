@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.sass">
+    <title>Marathon Time</title>
+</head>
+<body>
+    <div class="container">
+        <div class="measure">
+          <em>Time per kilo meter</em><br>
+          <div class="inputTime">
+            <input type="number" name="min" id="min" min="0" max="10" placeholder="0~10">min.
+            <input type="number" name="sec" id="sec" min="0" max="59" placeholder="0~59">sec.<br>
+          </div>
+          <button onclick="Timer()" class="submit">Time</button><br>
+          <em>Full Marathon</em><br>
+          <span id="output"></span>
+        </div>
+    </div>
+    <script src="script.js" textstyle="text/javascript"></script>
+</body>
+</html>
